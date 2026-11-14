@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div data-dedup-moved="1" style="background:#fff3cd;color:#222;padding:8px 14px;font:14px/1.4 system-ui,sans-serif;border-bottom:1px solid #e0c36a">Moved: this tool now lives at <a href="https://github.com/MegaStretch23/gha-pin-check">https://github.com/MegaStretch23/gha-pin-check</a></div>
 <header>
 <h1>Actions Pin Check</h1>
 <p class="lead">Paste a GitHub Actions workflow and see which <code>uses:</code> lines are not pinned to a full 40-character commit SHA (tags, branches, <code>@main</code>), and which patterns are risky: <code>pull_request_target</code> with a checkout of the pull request's code, <code>${{ github.event.* }}</code> pasted into a <code>run:</code> step, <code>permissions: write-all</code> or no <code>permissions:</code> block, and <code>curl | sh</code>.</p>

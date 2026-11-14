@@ -1,3 +1,5 @@
+Moved: https://github.com/MegaStretch23/gha-pin-check
+
 # Actions Pin Check (browser + stdlib CLI)
 
 Checks a GitHub Actions workflow for `uses:` lines that are not pinned to a full commit SHA, and for a few risky patterns. Paste a workflow into the page, or run the CLI on `.github/workflows/`.
